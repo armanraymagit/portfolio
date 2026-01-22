@@ -19,7 +19,6 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-responsive": "^10.0.1",
-    "tailwind": "^2.3.1",
     "tailwindcss": "^4.1.16",
     "three": "^0.180.0",
     "three-orbitcontrols": "^2.110.2"
