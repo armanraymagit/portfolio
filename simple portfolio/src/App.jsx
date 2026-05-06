@@ -8,12 +8,15 @@ import Education from './sections/Education.jsx'
 import Certifications from './sections/Certifications.jsx'
 import Cv from './sections/Cv.jsx'
 import About from './sections/About.jsx'
+import Experience from './sections/Experience.jsx'
+
 const App = () => {
   return (
     <>
       <Hero />
       <Navbar/>
       <Projects/>
+      <Experience />
       <Education/>
       <Skills/>
       <Certifications/>
