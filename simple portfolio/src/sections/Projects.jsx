@@ -34,6 +34,11 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+                {project.date && (
+                  <p className="text-sm text-blue-600/80 dark:text-blue-400/80 font-bold uppercase tracking-wider mb-1">
+                    {project.date}
+                  </p>
+                )}
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
                   {project.title.includes(':') ? (
                     <>
