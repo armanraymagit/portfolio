@@ -127,6 +127,7 @@ const projects = [
     description: "A state-of-the-art full-stack application that revolutionizes studying by transforming notes, PDFs, and images into interactive tools like AI-generated summaries, quizzes, and flashcards. Features hybrid RAG with pgvector, a local Ollama proxy, and a data-driven performance dashboard.",
     github: "https://github.com/armanraymagit/ALLYMIND_AI.git",
     liveDemo: null,
+    date: "Feb 2026",
     video: "/images/allymind.mp4",
     techStack: ["React 19", "Django 5.2", "PostgreSQL", "pgvector", "Ollama", "Llama 3.2", "Docker", "Tailwind CSS"],
     features: [
@@ -135,6 +136,22 @@ const projects = [
       "Interactive Flashcard & Quiz Master",
       "Data-driven Performance Dashboard",
       "Hybrid RAG with Vector Search"
+    ]
+  },
+  {
+    title: "Rubik’s Cube Solver (3D Desktop App)",
+    description: "A real-time 3D Rubik's Cube simulator and solver built with Python and Raylib. This desktop application allows users to interactively rotate cube faces, scramble the cube, and watch an AI-powered solver (using the Kociemba algorithm) find and execute the optimal solution in a background thread with smooth animations.",
+    github: "https://github.com/armanraymagit/rubikscubesolver.git",
+    liveDemo: null,
+    date: "October 2025",
+    video: "/images/cube.mp4",
+    techStack: ["Python", "Raylib", "Kociemba Algorithm", "Threading"],
+    features: [
+      "Interactive 3D Rendering",
+      "Real-time Input & Controls",
+      "AI Solver Integration",
+      "Multithreaded Execution",
+      "History & Reset capabilities"
     ]
   }
 ];
